@@ -17,13 +17,9 @@ public class tugas_B {
         System.out.println("===========================");
         int i = 0;
         do {
-            if (i == 0) {
-                i = 1;
-            } else {
-                System.out.println(i + " ");
-            }
-            i = i * 2;
-        } while (i <= 100);
+            i = i + 2;
+            System.out.print(i + " ");
+        } while(i <= 100);   
         System.out.println("");
         System.out.println("Bilangan [perkalian 2 {0-100)");
         System.out.println("===============================");
