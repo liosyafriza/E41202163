@@ -28,7 +28,7 @@ public class tugas_B {
             if (j == 0) {
                 j = 1;
             } else {
-                System.out.println(j * 2 + "");
+                System.out.print(j * 2 + " ");
             }
             j++;
         } while(j <= 100);
